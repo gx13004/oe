@@ -1,0 +1,54 @@
+#ShodanScraper by yours truly IpDowned
+
+1) Change your exploit to search for (line 5 shodan.py)
+2) install dependecies: 
+	pip install requests
+3) change the exploit (line 5 shodan.py), run scraper: python shodan.py > output.txt
+4) run the ip scraper: sh ip.sh > ip.txt
+5) the output will be saved in the file ip.txt
+6) to create a range list run: python ranges.py > output2.txt
+7) scrape all the ranges: sh iprange.sh > ranges.txt
+8) the output file will be ranges.txt
+
+
+LISTEN RETARD:
+
+After installing dependecies run the command "python shodan.py > output.txt" now its not gonna show anything but if u refresh the folder u will see a "output.txt" and after refreshing every 5 min u will see the txt size increase.
+
+Keep it going till it stops it gonna be like 2hrs bc range high. Don't worry about changing any exploits I already have it as Telnet and if u try and sell this fucking scraper I will hit ur home pussy ;).
+
+Before doing the "python ranges.py > output2.txt you need to check to see if all the ips are alive.
+
+Open the notepad named "ip.txt" copy those ips and make another notepad paste and save as "fping.txt"
+
+Either use the same vps or another one it don't matter if its a shit vps it will do.
+
+Take the fping.txt and put it in the vps ur choosing to add the ip checker
+
+now run the following commands:
+
+sudo apt-get update -y 
+
+cat fping.txt
+
+fping < fping.txt
+
+You will start to see it tell you if the ip are alive wait till it gets done should take a long time depending on your file size now after its done u need to copy all of the live ips.
+
+Now open up Subline and paste all the live ips now highlight over the word "alive" press ctrl + f click find all and backspace to remove the word do the same with the word "is".
+
+Now that u have a clean list of live ips go back to the shodan scrapper vps and replace all the old ips in the txt file "ip.txt" with the new live ips.
+
+After that run python ranges.py > output2.txt its not gonna show anything again just refresh the folder and u will see the size go up like in the output.txt file. Run it till it stops then run sh iprange.sh > ranges.txt same thing run 
+till it stops then you will see a ranges.txt now your are done repeat the process retard but before u do that delete the following txt files
+
+output.txt
+
+ip.txt
+
+output2.txt
+
+ranges.txt
+
+FUCK YOU!!!!
+

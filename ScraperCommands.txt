@@ -1,0 +1,22 @@
+sudo apt-get update -y
+
+sudo apt-get install python python-pip -y
+
+pip install requests
+
+sudo apt-get install zmap
+
+zmap -p22 -w list.txt -o mfu.txt -B1000M
+
+ulmit -n 999999
+
+python mfu.txt 1500 bruted.txt
+
+
+
+
+sudo apt-get update -y 
+
+cat fping.txt
+
+fping < fping.txt
